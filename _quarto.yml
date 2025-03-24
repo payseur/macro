@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "My Wiki"
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd
+      - text: Getting Started
+        file: getting-started.qmd
+      - text: FAQ
+        file: faq.qmd
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+
