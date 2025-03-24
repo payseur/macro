@@ -16,14 +16,14 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: v1.5.51 
+          version: 1.5.51 
 
       - name: Render Website
         run: quarto render
 
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+       - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
