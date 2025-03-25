@@ -1,1 +1,1 @@
-Sitemap: https://www.data-narcosis.com/sitemap.xml
+Sitemap: https://sitemap.xml
