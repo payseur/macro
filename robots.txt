@@ -1,1 +1,1 @@
-Sitemap: https://payseur.github.io/test_actions/sitemap.xml
+Sitemap: https://www.data-narcosis.com/sitemap.xml
