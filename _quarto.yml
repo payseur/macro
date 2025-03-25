@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "My Wiki"
+  title: "Macro"
   navbar:
     left:
       - text: Home
@@ -17,12 +17,12 @@ website:
     contents:
       - text: "Introduction"
         href: introduction.qmd
-      - section: "Basics"
+      - section: "Inflation"
         href: basics-summary.qmd
         contents:
-          - index.qmd
-          - basics-knitr.qmd
-          - basics-jupyter.qmd
+          - cpi.qmd
+          - pce.qmd
+          - deflator.qmd
       - section: "Layout"
         contents:
           - layout.qmd
