@@ -1,1 +1,1 @@
-Sitemap: https://sitemap.xml
+Sitemap: https://payseur.github.io/macro/sitemap.xml
